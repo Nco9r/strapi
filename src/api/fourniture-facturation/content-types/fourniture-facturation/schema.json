@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fourniture_facturations",
+  "info": {
+    "singularName": "fourniture-facturation",
+    "pluralName": "fourniture-facturations",
+    "displayName": "fourniture-facturation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idClient": {
+      "type": "string"
+    },
+    "IdChauffeur": {
+      "type": "string"
+    },
+    "todos": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fournitures",
+  "info": {
+    "singularName": "fourniture",
+    "pluralName": "fournitures",
+    "displayName": "fourniture",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IdArticle": {
+      "type": "string"
+    },
+    "IdFacturation": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "text"
+    },
+    "unite": {
+      "type": "string"
+    },
+    "categorieArticle": {
+      "type": "string"
+    },
+    "activite": {
+      "type": "string"
+    },
+    "volume": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collecte_facturations",
+  "info": {
+    "singularName": "collecte-facturation",
+    "pluralName": "collecte-facturations",
+    "displayName": "collecte-facturation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idClient": {
+      "type": "string"
+    },
+    "collecte": {
+      "type": "json"
+    }
+  }
+}
